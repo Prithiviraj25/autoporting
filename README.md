@@ -26,8 +26,7 @@ This format ensures clear tracking of errors, their categories, and the correspo
 ## **Selecting the Appropriate Model**
 * To install the Instruct Lab, ensure that **Python 3.9.20** is used, as this version is compatible for hosting the external model.
   Please go through the documentation of Instruct Lab for the installation [Instruct Lab Documentation](https://docs.instructlab.ai/)
-* The selected model, **deepseek-coder-1.3b-instruct_Q4_0**, is an advanced deep learning model designed for code-related tasks. It is based on the GPT architecture and trained on large datasets tailored for programming and software development. The model is capable of understanding, generating, and assisting with code in various programming languages.
-  Please visit the website for further information on the model used [link](https://huggingface.co/TheBloke/deepseek-coder-1.3b-instruct-GGUF)
+* The selected model, **llama-3.2-1b-q4_k_m**, is a multilingual large language model developed by Meta, featuring 1 billion parameters. It is part of the LLaMA 3.2 collection, which includes models designed for efficient performance on mobile and edge devices. The 1B model is optimized for multilingual text generation and tool-calling capabilities, supporting languages such as English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai. Trained on a diverse mix of publicly available online data, it is suitable for tasks like agentic retrieval and summarization. The model has a context length of up to 128,000 tokens, allowing it to handle long-context scenarios effectively.Please visit the [website](https://huggingface.co/medmekk/Llama-3.2-1B-Q4_K_M-GGUF) for further information on the model used.
 ***
 ## **Synthetic Data Generation**
 ### **Changing the format of qna.yaml file**

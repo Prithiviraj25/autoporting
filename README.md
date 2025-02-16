@@ -36,7 +36,10 @@ instructlab/schema/v3/knowledge.json.
 
 Currently, the structure includes only one context, under which there are three question-and-answer pairs.
 
-It is **important** to note that the number of question-and-answer pairs cannot be reduced to two or one. This is because the SDG process is designed to generate chunks of three question-and-answer pairs at a time, which are subsequently used for training.Therefore, maintaining this structure is essential for ensuring compatibility with the training pipeline.
+It is **important** to note that the number of question-and-answer pairs cannot be reduced to two or one. This is because the SDG process is designed to generate chunks of three question-and-answer pairs at a time, which are subsequently used for training.Therefore, maintaining this structure is essential for ensuring compatibility with the training pipeline. If not followed you might run into the following type of error:
+```
+failed to generate data with exception: 'icl_query_2'
+```
 
 ***Note:*** The context must include content directly extracted from the codebase used for training. Additionally, the question-and-answer pairs must be strictly based on this context to ensure alignment with the training data.
 
